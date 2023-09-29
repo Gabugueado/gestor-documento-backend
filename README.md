@@ -8,7 +8,7 @@ Este es el repositorio del backend para el proyecto de Gestor de Documento. El b
 Para comenzar a trabajar con este proyecto, primero debes clonar este repositorio en tu máquina local. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 
 ```bash
-git clone https://github.com/Gabugueado/gestor-documento-frontend.git
+git clone https://github.com/Gabugueado/gestor-documento-backend.git
 ```
 
 ## Configurar el Entorno Virtual
@@ -16,8 +16,8 @@ git clone https://github.com/Gabugueado/gestor-documento-frontend.git
 Es una buena práctica crear un entorno virtual para aislar las dependencias de tu proyecto. Para hacerlo, navega al directorio clonado del repositorio frontend y ejecuta los siguientes comandos:
 
 ```bash
-cd gestor-documento-frontend
-python -m venv backend
+cd gestor-documento-backend
+python -m venv env
 ```
 
 Luego, activa el entorno virtual (esto puede variar según tu sistema operativo):
@@ -25,13 +25,13 @@ Luego, activa el entorno virtual (esto puede variar según tu sistema operativo)
 - En Windows:
 
 ```bash
-backend\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 
 - En macOS y Linux:
 
 ```bash
-source backend/bin/activate
+source env/bin/activate
 ```
 
 ## Instalar Dependencias
