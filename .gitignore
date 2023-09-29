@@ -1,0 +1,27 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorio virtualenv
+venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Archivos de registro de Django
+*.log
+
+
+# Archivo de base de datos SQLite 
+# db.sqlite3
+
+
+# Directorio de archivos estáticos 
+static/
+
+# Archivos de migraciones de Django
+migrations/
+
+# Entorno de desarrollo de VS Code 
+.vscode/
